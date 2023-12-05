@@ -1,0 +1,7 @@
+fx_version 'adamant'
+game 'gta5'
+lua54 'yes'
+author 'Spady'
+description 'Submix Sound effect like NoPixel for Helicopter and plane'
+version '1.0.0'
+client_script 'client.lua'
