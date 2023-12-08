@@ -1,6 +1,4 @@
 function EnableSubmix()
-    radioEffectId = CreateAudioSubmix('Radio')
-    SetAudioSubmixEffectRadioFx(radioEffectId, 0)
     SetAudioSubmixEffectRadioFx(0, 0)
     SetAudioSubmixEffectParamInt(0, 0, `default`, 1)
     SetAudioSubmixEffectParamFloat(0, 0, `freq_low`, 0.0)
